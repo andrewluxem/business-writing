@@ -1,0 +1,21 @@
+{
+  "name": "business-writing",
+  "owner": {
+    "name": "Andrew Luxem"
+  },
+  "description": "business-writing, edit or build a decision-useful document and show what changed",
+  "plugins": [
+    {
+      "name": "business-writing",
+      "source": "./",
+      "description": "Three modes ending in working artifacts: edited document, new document, or writing audit. Static, version-pinned, and no network access.",
+      "category": "productivity",
+      "tags": [
+        "business-writing",
+        "editing",
+        "decision-memo",
+        "writing-audit"
+      ]
+    }
+  ]
+}
