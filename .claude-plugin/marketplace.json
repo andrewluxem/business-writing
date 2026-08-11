@@ -1,5 +1,6 @@
 {
   "name": "business-writing",
+  "version": "1.0.0",
   "owner": {
     "name": "Andrew Luxem"
   },
@@ -7,6 +8,7 @@
   "plugins": [
     {
       "name": "business-writing",
+      "version": "1.0.0",
       "source": "./",
       "description": "Three modes ending in working artifacts: edited document, new document, or writing audit. Static, version-pinned, and no network access.",
       "category": "productivity",
