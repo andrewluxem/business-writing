@@ -1,0 +1,41 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "business-writing",
+  "version": "1.0.0",
+  "description": "Tighten business writing: turn rough drafts or notes into clear memos, emails, and decision docs. Edits for clarity, flags missing evidence, never invents facts.",
+  "author": {
+    "name": "Some Luck Productions LLC",
+    "url": "https://andrewluxem.com"
+  },
+  "homepage": "https://github.com/andrewluxem/business-writing",
+  "repository": "https://github.com/andrewluxem/business-writing",
+  "license": "MIT",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Business Writing Editor",
+        "shortDescription": "Edit business docs clearly",
+        "longDescription": "Edits drafts and builds documents from notes for the reader who has to act on them. Checks the reader, the requested outcome, the bottom line, and the evidence before touching sentences. Returns an Edited Business Document with a Change Scorecard showing what changed and why, or a Writing Audit that scores clarity of thought, structure, and sentence mechanics without rewriting. Preserves supported facts, exposes evidence gaps, and refuses to invent metrics, dates, incidents, or quotes. Built from the Business Writing playbook at andrewluxem.com. Static skill: no network calls.",
+        "developerName": "Some Luck Productions LLC",
+        "category": "Productivity",
+        "capabilities": [
+          "Edit emails, memos, and decision docs with a change scorecard",
+          "Build a decision memo from rough notes",
+          "Audit writing for clarity, structure, and evidence gaps"
+        ],
+        "websiteURL": "https://github.com/andrewluxem/business-writing",
+        "supportURL": "https://github.com/andrewluxem/business-writing/issues",
+        "privacyPolicyURL": "https://andrewluxem.com/plugins/privacy",
+        "defaultPrompt": [
+          "Tighten this email",
+          "Turn these notes into a decision memo",
+          "Audit my business writing"
+        ],
+        "brandColor": "#2E5E4E",
+        "brandColorDark": "#8FD1B8",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/logo.png"
+      }
+    }
+  }
+}
