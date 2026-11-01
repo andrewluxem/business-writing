@@ -1,3 +1,5 @@
+<p align="center"><img src="docs/banner.svg" alt="business-writing: Static agent skill for editing, building, and auditing business documents with visible evidence gaps and a change scorecard."></p>
+
 # business-writing
 
 A small, static agent skill that turns a draft or notes into decision-useful business writing and makes its editorial judgment visible.
